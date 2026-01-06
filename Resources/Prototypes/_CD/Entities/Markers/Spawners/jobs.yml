@@ -1,9 +1,9 @@
 - type: entity
   id: ArrivalsSpawnPrivateInvestigator
-  parent: ArrivalsSpawnPointJobBase
+  parent: SpawnPointJobBase
   suffix: private investigator
   components:
-  - type: ArrivalsSpawnPoint
+  - type: SpawnPoint
     jobs:
       - PrivateInvestigator
   - type: Sprite
