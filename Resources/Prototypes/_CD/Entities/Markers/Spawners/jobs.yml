@@ -1,0 +1,12 @@
+- type: entity
+  id: ArrivalsSpawnPrivateInvestigator
+  parent: ArrivalsSpawnPointJobBase
+  suffix: private investigator
+  components:
+  - type: ArrivalsSpawnPoint
+    jobs:
+      - PrivateInvestigator
+  - type: Sprite
+    layers:
+      - state: green
+      - state: detective
