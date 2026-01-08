@@ -6,7 +6,7 @@
   - type: Sprite
     layers:
     - state: default
-    - sprite: _CD/Objects/Misc/id_cards.rsi
-      state: privateinvestigator
+    - sprite: Objects/Misc/id_cards.rsi
+      state: idprivateinvestigator
   - type: PresetIdCard
     job: PrivateInvestigator
