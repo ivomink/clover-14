@@ -2,5 +2,5 @@
   parent: JobIcon
   id: JobIconPrivateInvestigator
   icon:
-    sprite: _CD/Interface/Misc/job_icons.rsi
-    state: PrivateInvestigator
+    sprite: Objects/Misc/id_cards.rsi
+    state: idprivateinvestigator
