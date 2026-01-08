@@ -102,9 +102,10 @@
   equipment:
     eyes: ClothingEyesGlassesSunglasses
 
-- type: loadout #Upstream merge will add a second glasses entry.
-  id: Glasses
-  equipment: Glasses
+# Clover - Duplicate entry
+# - type: loadout
+#  id: Glasses
+# equipment: Glasses
 
 - type: startingGear
   id: Glasses
