@@ -36,14 +36,14 @@
   equipment:
     outerClothing: ClothingOuterCoatJensen
 
-- type: loadout
-  id: InspectorCoat
-  equipment: InspectorCoat
+#- type: loadout
+#  id: InspectorCoat
+#  equipment: InspectorCoat
 
-- type: startingGear
-  id: InspectorCoat
-  equipment:
-    outerClothing: ClothingOuterCoatInspector
+#- type: startingGear
+#  id: InspectorCoat
+#  equipment:
+#    outerClothing: ClothingOuterCoatInspector
 
 - type: loadout
   id: TrenchCoat

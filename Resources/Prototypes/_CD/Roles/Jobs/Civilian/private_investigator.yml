@@ -13,14 +13,24 @@
 - type: startingGear
   id: PrivateInvestigatorGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitDetectiveGrey # Technically a detective outfit but only in ID
-    back: ClothingBackpackPrivateInvestigatorFilled
-    shoes: ClothingShoesBootsJack
-    eyes: ClothingEyesGlassesSunglasses # They keep these
-    head: ClothingHeadHatFedoraGrey
     id: PrivateInvestigatorPDA
     ears: ClothingHeadsetService
+  storage:
+    back:
+    - ForensicScanner
+    - ForensicPad
+    - ForensicPad
+    - ForensicPad
+    - LogProbeCartridge
+    - BoxTapeRecorder
+
+- type: chameleonOutfit
+  id: PrivateInvestigatorChameleonOutfit
+  job: PrivateInvestigator
+  equipment:
+    head: ClothingHeadHatFedoraBrown
+    eyes: ClothingEyesGlassesSunglasses
+    mask: ClothingMaskBreath
+    outerClothing: ClothingOuterCoatJensen
     gloves: ClothingHandsGlovesColorBlack
-  innerClothingSkirt: ClothingUniformJumpskirtDetectiveGrey
-  satchel: ClothingBackpackSatchelPrivateInvestigatorFilled
-  duffelbag: ClothingBackpackDuffelPrivateInvestigatorFilled
+    shoes: ClothingShoesBootsJack
