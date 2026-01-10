@@ -4,6 +4,9 @@
   abstract: true
   components:
   - type: EnergySword
+  - type: EmoteOnHit # KS14/WD Edit
+    emote: Flip
+    requireStanding: true
   - type: ItemToggle
     soundActivate:
       path: /Audio/Weapons/ebladeon.ogg
