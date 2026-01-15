@@ -117,3 +117,8 @@
   license: "CC-BY-3.0"
   copyright: "A different reality by Andreas Viklund (Lagoona Mix)"
   source: "https://www.youtube.com/watch?v=s3Eq0JQ3RU8"
+
+- files: ["hr3-icyland.ogg"]
+  license: "CC-BY-3.0"
+  copyright: "Icyland by NeonCorridor"
+  source: "https://github.com/zenorogue/hyperrogue"
