@@ -18,7 +18,7 @@ public sealed class NoEorgPopupSystem : EntitySystem
 
     private void OnRoundEnd(RoundEndMessageEvent ev)
     {
-        if (_cfg.GetCVar(StarlightCCVars.SkipRoundEndNoEorgPopup) || _cfg.GetCVar(StarlightCCVars.RoundEndNoEorgPopup) == false)
+        if (_cfg.GetCVar(CloverCCVars.SkipRoundEndNoEorgPopup) || _cfg.GetCVar(CloverCCVars.RoundEndNoEorgPopup) == false)
             return;
 
         OpenNoEorgPopup();
