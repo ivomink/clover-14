@@ -11301,18 +11301,6 @@ entities:
     - type: Transform
       pos: -1.4590547,-61.356407
       parent: 8364
-- proto: ActionSleep
-  entities:
-  - uid: 28820
-    mapInit: true
-    paused: true
-    components:
-    - type: Transform
-      parent: 28819
-    - type: Action
-      originalIconColor: '#FFFFFFFF'
-      container: 28819
-      attachedEntity: invalid
   - uid: 28967
     mapInit: true
     paused: true
@@ -86003,14 +85991,8 @@ entities:
       buckledEntities:
       - invalid
     - type: HealOnBuckle
-      sleepAction: 28820
     - type: HealOnBuckleHealing
     - type: ActionsContainer
-    - type: ContainerContainer
-      containers:
-        actions: !type:Container
-          ents:
-          - 28820
   - uid: 28887
     components:
     - type: Transform
