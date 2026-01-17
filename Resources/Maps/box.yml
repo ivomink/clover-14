@@ -2,7 +2,7 @@ meta:
   format: 7
   category: Map
   engineVersion: 268.1.0
-  forkId: ""
+  forkId: "clover"
   forkVersion: ""
   time: 01/12/2026 22:29:13
   entityCount: 28969
@@ -23252,15 +23252,6 @@ entities:
     - type: Transform
       pos: -50.49899,-11.27141
       parent: 8364
-- proto: BoxFolderCentComEmpty
-  entities:
-  - uid: 28951
-    components:
-    - type: Transform
-      parent: 28948
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: BoxFolderClipboard
   entities:
   - uid: 6122
@@ -150808,13 +150799,6 @@ entities:
     components:
     - type: Transform
       pos: -55.58836,-8.708898
-      parent: 8364
-- proto: RubberStampCentcom
-  entities:
-  - uid: 13767
-    components:
-    - type: Transform
-      pos: -55.448685,-8.924269
       parent: 8364
 - proto: RubberStampDenied
   entities:
