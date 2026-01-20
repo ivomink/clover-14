@@ -11315,28 +11315,6 @@ entities:
     - type: Transform
       pos: -1.4590547,-61.356407
       parent: 8364
-- proto: ActionSleep
-  entities:
-  - uid: 28820
-    mapInit: true
-    paused: true
-    components:
-    - type: Transform
-      parent: 28819
-    - type: Action
-      originalIconColor: '#FFFFFFFF'
-      container: 28819
-      attachedEntity: invalid
-  - uid: 28967
-    mapInit: true
-    paused: true
-    components:
-    - type: Transform
-      parent: 28966
-    - type: Action
-      originalIconColor: '#FFFFFFFF'
-      container: 28966
-      attachedEntity: invalid
 - proto: ActionToggleLight
   entities:
   - uid: 13768
