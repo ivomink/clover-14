@@ -86023,7 +86023,6 @@ entities:
       parent: 8364
     - type: Strap
       buckledEntities:
-      - invalid
     - type: HealOnBuckle
       sleepAction: 28820
     - type: HealOnBuckleHealing
@@ -86045,7 +86044,6 @@ entities:
       parent: 8364
     - type: Strap
       buckledEntities:
-      - invalid
     - type: HealOnBuckle
       sleepAction: 28967
     - type: ActionsContainer
@@ -187462,7 +187460,6 @@ entities:
       parent: 8364
     - type: Strap
       buckledEntities:
-      - invalid
 - proto: Wrench
   entities:
   - uid: 2220
