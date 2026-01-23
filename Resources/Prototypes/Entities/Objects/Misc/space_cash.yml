@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: SpaceCash
-  name: spesos
-  description: You gotta have money.
+  name: lira
+  description: L-O-D-S of E-M-O-N-E What's that spell? Loadsamoney! 
   components:
   - type: Cash
   - type: Item
